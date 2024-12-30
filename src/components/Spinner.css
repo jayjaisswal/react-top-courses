@@ -11,7 +11,10 @@
       transform: rotate(1turn);
    }
 }
-
+p{
+   color: white;
+   font-family: cursive;
+}
 /* 
   body{
     width: 100%;
