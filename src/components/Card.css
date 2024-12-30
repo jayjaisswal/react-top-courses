@@ -1,0 +1,98 @@
+
+  .ParentCard{
+    /* width: 100%;  */
+   /* display: flex;  */
+   flex-wrap: wrap;
+   background-color: black;
+   
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* flex-direction: column; */
+   
+    width: 300px;
+    height: 340px;
+    
+
+    /* flex-direction: column; */
+    margin: 10px;
+   
+
+
+}
+
+img{
+    width: 100%;
+   height: auto;
+   object-fit: cover;
+   /* aspect-ratio: 1/1; */
+
+   
+
+}
+.allcards{
+  
+  flex-wrap: wrap;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   /* background-color: #000000d5 ; */
+
+}
+
+
+.heart{
+  width: 100%;
+ display: flex;
+ justify-content: end;
+}
+
+.title{
+  color: white;
+  font-weight: 700;
+  font-family: cursive;
+  font-size: 1.3rem;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.desc{
+  color: white;
+  font-family: 'cursive';
+  font-size: 1rem;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+.heart {
+  position: absolute; /* Make the heart container overlap */
+  top: 75%; /* Adjust as needed */
+  right: 10px; /* Position on the right */
+
+}
+
+#likebtn {
+  border-radius: 50%; /* Makes the button circular */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Background color for the button */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#likebtn:hover {
+  background-color: #f0f0f0; /* Light gray hover effect */
+}
